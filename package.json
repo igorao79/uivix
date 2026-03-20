@@ -1,0 +1,8 @@
+{
+  "name": "uixy-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}

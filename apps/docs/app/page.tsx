@@ -6,7 +6,7 @@ export default function HomePage() {
       <div className="text-center max-w-2xl">
         <h1 className="text-6xl font-bold tracking-tight mb-4">
           <span className="bg-gradient-to-r from-violet-400 to-indigo-400 bg-clip-text text-transparent">
-            UIXY
+            UIVIX
           </span>
         </h1>
         <p className="text-xl text-zinc-400 mb-8">
@@ -22,11 +22,11 @@ export default function HomePage() {
             Browse Components
           </Link>
           <Link
-            href="https://www.npmjs.com/package/uixy"
+            href="https://www.npmjs.com/package/@igorao79/uivix"
             target="_blank"
             className="inline-flex items-center justify-center h-12 px-8 font-medium text-sm rounded-lg border border-zinc-700 text-zinc-300 hover:bg-zinc-800 transition-colors"
           >
-            npm install uixy
+            npm install @igorao79/uivix
           </Link>
         </div>
 

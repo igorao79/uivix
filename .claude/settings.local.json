@@ -49,7 +49,8 @@
       "Bash(npm profile:*)",
       "Bash(npm logout:*)",
       "Bash(grep -rl 'from \"\"\"\"uivix\"\"\"\"' --include=\"*.tsx\" --include=\"*.ts\" .)",
-      "Bash(npm ls:*)"
+      "Bash(npm ls:*)",
+      "Bash(npm view:*)"
     ]
   }
 }

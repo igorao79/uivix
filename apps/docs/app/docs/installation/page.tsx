@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { CodeBlock } from "@/components/CodeBlock";
 
-const installCode = `npm install uixy`;
+const installCode = `npm install @igorao79/uivix`;
 const importExample = `import { Button, Input, GradientText } from "@igorao79/uivix";`;
 
 const componentCategories = [
@@ -37,7 +37,7 @@ export default function InstallationPage() {
     <div>
       <h1 className="text-3xl font-bold mb-2">Installation</h1>
       <p className="text-zinc-400 mb-8">
-        Get started with UIXY by installing the package in your project.
+        Get started with UIVIX by installing the package in your project.
       </p>
 
       <h2 className="text-xl font-semibold mb-4">Install</h2>
@@ -46,7 +46,7 @@ export default function InstallationPage() {
 
       <h2 className="text-xl font-semibold mb-4">Import Components</h2>
       <p className="text-zinc-400 mb-4">
-        Import any component directly from the <code className="text-violet-400 bg-zinc-800 px-1.5 py-0.5 rounded text-sm">uixy</code> package.
+        Import any component directly from the <code className="text-violet-400 bg-zinc-800 px-1.5 py-0.5 rounded text-sm">@igorao79/uivix</code> package.
       </p>
       <CodeBlock code={importExample} />
       <div className="mb-12" />

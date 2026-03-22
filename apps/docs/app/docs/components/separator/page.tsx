@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Separator } from "uivix";
+import { Separator } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 
-const importCode = `import { Separator } from "uivix";`;
+const importCode = `import { Separator } from "@igorao79/uivix";`;
 
 const variants = ["default", "dashed", "dotted", "gradient"] as const;
 

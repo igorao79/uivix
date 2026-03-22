@@ -1,11 +1,11 @@
 "use client";
 
-import { Label, Input } from "uivix";
+import { Label, Input } from "@igorao79/uivix";
 import { ComponentPreview } from "@/components/ComponentPreview";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 
-const importCode = `import { Label } from "uivix";`;
+const importCode = `import { Label } from "@igorao79/uivix";`;
 
 export default function LabelPage() {
   return (

@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { Tooltip, Button } from "uivix";
+import { Tooltip, Button } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { Tooltip } from "uivix";`;
+const importCode = `import { Tooltip } from "@igorao79/uivix";`;
 
 const sides = ["top", "bottom", "left", "right"] as const;
 const variants = ["default", "dark", "light", "gradient", "glass", "outlined", "neon", "success", "warning", "error"] as const;

@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { MatrixRainBackground } from "uivix";
+import { MatrixRainBackground } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { MatrixRainBackground } from "uivix";`;
+const importCode = `import { MatrixRainBackground } from "@igorao79/uivix";`;
 
 const colorPresets = [
   { label: "Green", color: "#22c55e" },

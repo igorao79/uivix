@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { TypewriterText } from "uivix";
+import { TypewriterText } from "@igorao79/uivix";
 import { ComponentPreview } from "@/components/ComponentPreview";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { TypewriterText } from "uivix";`;
+const importCode = `import { TypewriterText } from "@igorao79/uivix";`;
 
 export default function TypewriterTextPage() {
   const [words, setWords] = useState("Hello World, Welcome to UIXY, Build beautiful UIs");

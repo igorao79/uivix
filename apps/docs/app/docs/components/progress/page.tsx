@@ -1,12 +1,12 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Progress } from "uivix";
+import { Progress } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { Progress } from "uivix";`;
+const importCode = `import { Progress } from "@igorao79/uivix";`;
 
 const variants = ["default", "gradient", "striped", "glow"] as const;
 const sizes = ["sm", "md", "lg"] as const;

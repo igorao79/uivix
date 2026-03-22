@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { PixelBackground } from "uivix";
+import { PixelBackground } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { PixelBackground } from "uivix";`;
+const importCode = `import { PixelBackground } from "@igorao79/uivix";`;
 
 const variants = [
   { name: "rain", label: "Rain", description: "Falling pixel rain columns" },

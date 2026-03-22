@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { HighlightText } from "uivix";
+import { HighlightText } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { HighlightText } from "uivix";`;
+const importCode = `import { HighlightText } from "@igorao79/uivix";`;
 
 const variants = [
   { name: "marker", label: "Marker" },
@@ -134,7 +134,7 @@ export default function HighlightTextPage() {
                 triggerOnView={true}
                 className="font-semibold text-white"
               >
-                {vr.label.toLowerCase()} highlight
+                {`${vr.label.toLowerCase()} highlight`}
               </HighlightText>{" "}
               variant
             </p>

@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { SearchInput } from "uivix";
+import { SearchInput } from "@igorao79/uivix";
 import { ComponentPreview } from "@/components/ComponentPreview";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 
-const importCode = `import { SearchInput } from "uivix";`;
+const importCode = `import { SearchInput } from "@igorao79/uivix";`;
 
 export default function SearchInputPage() {
   const [query, setQuery] = useState("");

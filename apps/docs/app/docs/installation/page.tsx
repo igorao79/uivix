@@ -2,7 +2,7 @@ import Link from "next/link";
 import { CodeBlock } from "@/components/CodeBlock";
 
 const installCode = `npm install uixy`;
-const importExample = `import { Button, Input, GradientText } from "uivix";`;
+const importExample = `import { Button, Input, GradientText } from "@igorao79/uivix";`;
 
 const componentCategories = [
   {

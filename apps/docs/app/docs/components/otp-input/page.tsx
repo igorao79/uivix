@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { OTPInput } from "uivix";
+import { OTPInput } from "@igorao79/uivix";
 import { ComponentPreview } from "@/components/ComponentPreview";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 
-const importCode = `import { OTPInput } from "uivix";`;
+const importCode = `import { OTPInput } from "@igorao79/uivix";`;
 
 export default function OTPInputPage() {
   const [otp, setOtp] = useState("");

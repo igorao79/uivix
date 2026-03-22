@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { WaveText } from "uivix";
+import { WaveText } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { WaveText } from "uivix";`;
+const importCode = `import { WaveText } from "@igorao79/uivix";`;
 
 export default function WaveTextPage() {
   const [text, setText] = useState("Hello World");

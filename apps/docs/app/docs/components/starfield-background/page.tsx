@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { StarfieldBackground } from "uivix";
+import { StarfieldBackground } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { StarfieldBackground } from "uivix";`;
+const importCode = `import { StarfieldBackground } from "@igorao79/uivix";`;
 
 const colorPresets = [
   { label: "White", color: [200, 200, 255] as [number, number, number] },

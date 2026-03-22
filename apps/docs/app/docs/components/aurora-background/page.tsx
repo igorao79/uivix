@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { AuroraBackground } from "uivix";
+import { AuroraBackground } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { AuroraBackground } from "uivix";`;
+const importCode = `import { AuroraBackground } from "@igorao79/uivix";`;
 
 const colorPresets = [
   { label: "Violet-Blue", colors: ["#8b5cf6", "#3b82f6", "#06b6d4", "#8b5cf6"] },

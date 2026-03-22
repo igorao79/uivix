@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { GlitchText } from "uivix";
+import { GlitchText } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { GlitchText } from "uivix";`;
+const importCode = `import { GlitchText } from "@igorao79/uivix";`;
 
 export default function GlitchTextPage() {
   const [text, setText] = useState("GLITCH");

@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Toggle } from "uivix";
+import { Toggle } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 
-const importCode = `import { Toggle } from "uivix";`;
+const importCode = `import { Toggle } from "@igorao79/uivix";`;
 
 const variants = ["default", "ios", "material", "outline", "glow", "pill", "slim", "labeled"] as const;
 const sizes = ["sm", "md", "lg"] as const;

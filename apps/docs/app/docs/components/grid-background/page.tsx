@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { GridBackground } from "uivix";
+import { GridBackground } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { GridBackground } from "uivix";`;
+const importCode = `import { GridBackground } from "@igorao79/uivix";`;
 
 const variants = [
   { name: "grid", label: "Grid" },

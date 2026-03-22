@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { BokehBackground } from "uivix";
+import { BokehBackground } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { BokehBackground } from "uivix";`;
+const importCode = `import { BokehBackground } from "@igorao79/uivix";`;
 
 const shapes = ["circle", "hexagon", "diamond", "triangle", "star", "ring", "mixed"] as const;
 

@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { GradientMeshBackground } from "uivix";
+import { GradientMeshBackground } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { GradientMeshBackground } from "uivix";`;
+const importCode = `import { GradientMeshBackground } from "@igorao79/uivix";`;
 
 const colorPresets = [
   { label: "Violet-Blue", colors: ["#8b5cf6", "#3b82f6", "#06b6d4", "#ec4899"] },

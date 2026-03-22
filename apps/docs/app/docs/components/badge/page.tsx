@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Badge } from "uivix";
+import { Badge } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 
-const importCode = `import { Badge } from "uivix";`;
+const importCode = `import { Badge } from "@igorao79/uivix";`;
 
 const variants = ["default", "secondary", "outline", "success", "warning", "destructive", "glow", "gradient", "glass", "neon", "shimmer", "soft", "info", "premium", "new", "beta"] as const;
 const sizes = ["sm", "md", "lg"] as const;

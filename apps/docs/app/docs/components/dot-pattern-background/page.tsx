@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { DotPatternBackground } from "uivix";
+import { DotPatternBackground } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { DotPatternBackground } from "uivix";`;
+const importCode = `import { DotPatternBackground } from "@igorao79/uivix";`;
 
 export default function DotPatternBackgroundPage() {
   const [spacing, setSpacing] = useState(24);

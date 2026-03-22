@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { MeteorBackground } from "uivix";
+import { MeteorBackground } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { MeteorBackground } from "uivix";`;
+const importCode = `import { MeteorBackground } from "@igorao79/uivix";`;
 
 const colorPresets = [
   { label: "Silver", color: "#a1a1aa" },

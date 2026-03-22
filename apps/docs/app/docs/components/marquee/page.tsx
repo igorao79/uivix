@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { Marquee, Card, CardContent } from "uivix";
+import { Marquee, Card, CardContent } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { Marquee, Card, CardContent } from "uivix";`;
+const importCode = `import { Marquee, Card, CardContent } from "@igorao79/uivix";`;
 
 const directions = ["left", "right"] as const;
 

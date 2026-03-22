@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Skeleton } from "uivix";
+import { Skeleton } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 
-const importCode = `import { Skeleton } from "uivix";`;
+const importCode = `import { Skeleton } from "@igorao79/uivix";`;
 
 const variantOptions = ["rectangle", "circle", "text"] as const;
 const animationOptions = ["pulse", "shimmer", "none"] as const;

@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { RetroGridBackground } from "uivix";
+import { RetroGridBackground } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { RetroGridBackground } from "uivix";`;
+const importCode = `import { RetroGridBackground } from "@igorao79/uivix";`;
 
 const colorPresets = [
   { label: "Violet", color: "#8b5cf6" },
@@ -18,7 +18,6 @@ const colorPresets = [
 
 export default function RetroGridBackgroundPage() {
   const [colorIdx, setColorIdx] = useState(0);
-  const [angle, setAngle] = useState(65);
   const [cellSize, setCellSize] = useState(60);
   const [speed, setSpeed] = useState(1);
   const [key, setKey] = useState(0);
@@ -36,7 +35,7 @@ export default function RetroGridBackgroundPage() {
       <h2 className="text-xl font-semibold mb-4">Playground</h2>
       <div className="rounded-lg border border-zinc-800 bg-zinc-900/50 p-0 mb-6 overflow-hidden">
         <div className="relative w-full h-[400px] bg-zinc-950 overflow-hidden">
-          <RetroGridBackground key={key} lineColor={colorPresets[colorIdx].color} angle={angle} cellSize={cellSize} speed={speed} fadeColor="#09090b" className="absolute inset-0 w-full h-full" />
+          <RetroGridBackground key={key} lineColor={colorPresets[colorIdx].color} cellSize={cellSize} speed={speed} className="absolute inset-0 w-full h-full" />
         </div>
         <div className="border-t border-zinc-800 p-4 space-y-3">
           <div>
@@ -49,8 +48,7 @@ export default function RetroGridBackgroundPage() {
               ))}
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-x-6 gap-y-3">
-            <SliderControl label="Angle" value={angle} onChange={(v) => { setAngle(v); replay(); }} min={30} max={80} suffix="deg" />
+          <div className="grid grid-cols-2 gap-x-6 gap-y-3">
             <SliderControl label="Cell Size" value={cellSize} onChange={(v) => { setCellSize(v); replay(); }} min={20} max={120} suffix="px" />
             <SliderControl label="Speed" value={speed} onChange={(v) => { setSpeed(v); replay(); }} min={0.2} max={4} step={0.1} suffix="x" />
           </div>

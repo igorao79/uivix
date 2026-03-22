@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { WaveBackground } from "uivix";
+import { WaveBackground } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { WaveBackground } from "uivix";`;
+const importCode = `import { WaveBackground } from "@igorao79/uivix";`;
 
 const colorPresets = [
   { label: "Violet", colors: ["rgba(139,92,246,0.15)", "rgba(59,130,246,0.12)", "rgba(6,182,212,0.1)"] },

@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { Button } from "uivix";
+import { Button } from "@igorao79/uivix";
 import { ComponentPreview } from "@/components/ComponentPreview";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 
-const importCode = `import { Button } from "uivix";`;
+const importCode = `import { Button } from "@igorao79/uivix";`;
 
 const HeartIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

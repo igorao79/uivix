@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { ParticleBackground } from "uivix";
+import { ParticleBackground } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { ParticleBackground } from "uivix";`;
+const importCode = `import { ParticleBackground } from "@igorao79/uivix";`;
 
 const presets = [
   {

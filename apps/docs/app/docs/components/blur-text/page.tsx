@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { BlurText } from "uivix";
+import { BlurText } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { BlurText } from "uivix";`;
+const importCode = `import { BlurText } from "@igorao79/uivix";`;
 
 export default function BlurTextPage() {
   const [text, setText] = useState("Build something amazing today");

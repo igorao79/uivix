@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { RippleBackground } from "uivix";
+import { RippleBackground } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { RippleBackground } from "uivix";`;
+const importCode = `import { RippleBackground } from "@igorao79/uivix";`;
 
 const colorPresets = [
   { label: "Violet", color: "rgba(139, 92, 246, 0.15)" },

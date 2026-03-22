@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { Avatar } from "uivix";
+import { Avatar } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { Avatar } from "uivix";`;
+const importCode = `import { Avatar } from "@igorao79/uivix";`;
 
 const shapes = ["circle", "square"] as const;
 const statuses = ["online", "offline", "busy", "away"] as const;

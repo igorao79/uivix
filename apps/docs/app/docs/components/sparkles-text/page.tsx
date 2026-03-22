@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { SparklesText } from "uivix";
+import { SparklesText } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 import { SliderControl } from "@/components/Playground";
 
-const importCode = `import { SparklesText } from "uivix";`;
+const importCode = `import { SparklesText } from "@igorao79/uivix";`;
 
 const colorPresets = [
   { label: "Gold", color: "#FFC700" },

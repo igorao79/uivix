@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter, Button } from "uivix";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter, Button } from "@igorao79/uivix";
 import { PropsTable } from "@/components/PropsTable";
 import { CodeBlock } from "@/components/CodeBlock";
 
-const importCode = `import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "uivix";`;
+const importCode = `import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@igorao79/uivix";`;
 
 const variants = [
   { name: "default", label: "Default", description: "Clean card with subtle border" },

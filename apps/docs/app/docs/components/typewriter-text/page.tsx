@@ -10,7 +10,7 @@ import { SliderControl } from "@/components/Playground";
 const importCode = `import { TypewriterText } from "@igorao79/uivix";`;
 
 export default function TypewriterTextPage() {
-  const [words, setWords] = useState("Hello World, Welcome to UIXY, Build beautiful UIs");
+  const [words, setWords] = useState("Hello World, Welcome to UIVIX, Build beautiful UIs");
   const [speed, setSpeed] = useState(80);
   const [deleteSpd, setDeleteSpd] = useState(50);
   const [pause, setPause] = useState(1500);

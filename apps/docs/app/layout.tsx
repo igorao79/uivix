@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "UIXY - UI Component Library",
+  title: "UIVIX - UI Component Library",
   description: "A modern UI component library for React + Tailwind CSS",
 };
 

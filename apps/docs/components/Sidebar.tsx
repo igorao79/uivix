@@ -175,7 +175,7 @@ export function Sidebar() {
     <aside className="w-64 shrink-0 border-r border-zinc-800 h-screen sticky top-0 overflow-y-auto p-6">
       <Link href="/" className="flex items-center gap-2 mb-8">
         <span className="text-xl font-bold bg-gradient-to-r from-violet-400 to-indigo-400 bg-clip-text text-transparent">
-          UIXY
+          UIVIX
         </span>
       </Link>
 

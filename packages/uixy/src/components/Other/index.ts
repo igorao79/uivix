@@ -21,3 +21,6 @@ export type { AvatarProps } from "./Avatar";
 
 export { Marquee } from "./Marquee";
 export type { MarqueeProps } from "./Marquee";
+
+export { Watermark } from "./Watermark";
+export type { WatermarkProps } from "./Watermark";

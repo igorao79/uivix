@@ -84,6 +84,7 @@ const categories: NavCategory[] = [
       { name: "Progress", href: "/docs/components/progress" },
       { name: "Avatar", href: "/docs/components/avatar" },
       { name: "Marquee", href: "/docs/components/marquee" },
+      { name: "Watermark", href: "/docs/components/watermark" },
     ],
   },
 ];
@@ -143,8 +144,8 @@ function CategoryGroup({ category }: { category: NavCategory }) {
       </button>
 
       <ul
-        className={`overflow-hidden transition-all duration-200 ease-out ${
-          open ? "max-h-[2000px] opacity-100 mt-1" : "max-h-0 opacity-0"
+        className={`${
+          open ? "opacity-100 mt-1" : "hidden opacity-0"
         }`}
       >
         {category.items.map((item) => {

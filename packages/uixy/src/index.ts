@@ -124,4 +124,7 @@ export type { AvatarProps } from "./components/Other";
 export { Marquee } from "./components/Other";
 export type { MarqueeProps } from "./components/Other";
 
+export { Watermark } from "./components/Other";
+export type { WatermarkProps } from "./components/Other";
+
 export { cn } from "./utils/cn";

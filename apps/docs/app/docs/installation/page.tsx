@@ -74,6 +74,20 @@ export default function InstallationPage() {
         </svg>
       </a>
 
+      <h2 className="text-xl font-semibold mb-4">Support UIVIX</h2>
+      <div className="rounded-lg border border-violet-500/20 bg-violet-500/5 p-5 mb-12">
+        <p className="text-sm text-zinc-300 mb-3">
+          Help us grow by adding the <code className="text-violet-400 bg-zinc-800 px-1.5 py-0.5 rounded text-xs">Watermark</code> component to your project. It&apos;s a subtle, semi-transparent badge that links back to UIVIX — helping other developers discover the library.
+        </p>
+        <CodeBlock code={`import { Watermark } from "@igorao79/uivix";
+
+// Add to your root layout
+<Watermark />`} />
+        <p className="text-xs text-zinc-500 mt-3">
+          Completely optional and non-intrusive. Customizable position, size, and text.
+        </p>
+      </div>
+
       <h2 className="text-xl font-semibold mb-6">Explore Components</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {componentCategories.map((category) => (

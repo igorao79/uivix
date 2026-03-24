@@ -6,7 +6,7 @@ const nextConfig = {
   webpack: (config) => {
     config.resolve.alias["@igorao79/uivix"] = path.resolve(
       __dirname,
-      "../../packages/uixy/dist/index.mjs"
+      "../../packages/uixy/src/index.ts"
     );
     return config;
   },

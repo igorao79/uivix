@@ -16,7 +16,7 @@
     "plugins": [{ "name": "next" }],
     "paths": {
       "@/*": ["./*"],
-      "@igorao79/uivix": ["../../packages/uixy/dist/index.d.mts"]
+      "@igorao79/uivix": ["../../packages/uixy/src/index.ts"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

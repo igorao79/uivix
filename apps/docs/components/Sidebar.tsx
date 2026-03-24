@@ -144,7 +144,7 @@ function CategoryGroup({ category }: { category: NavCategory }) {
 
       <ul
         className={`overflow-hidden transition-all duration-200 ease-out ${
-          open ? "max-h-96 opacity-100 mt-1" : "max-h-0 opacity-0"
+          open ? "max-h-[2000px] opacity-100 mt-1" : "max-h-0 opacity-0"
         }`}
       >
         {category.items.map((item) => {

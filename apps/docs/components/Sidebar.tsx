@@ -68,6 +68,9 @@ const categories: NavCategory[] = [
       { name: "Retro Grid", href: "/docs/components/retro-grid-background" },
       { name: "Meteors", href: "/docs/components/meteor-background" },
       { name: "Beams", href: "/docs/components/beam-background" },
+      { name: "Noise", href: "/docs/components/noise-background" },
+      { name: "Geometric", href: "/docs/components/geometric-background" },
+      { name: "Flow Field", href: "/docs/components/flow-field-background" },
     ],
   },
   {

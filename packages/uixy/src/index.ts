@@ -91,6 +91,15 @@ export type { MeteorBackgroundProps } from "./components/Background";
 export { BeamsBackground } from "./components/Background";
 export type { BeamsBackgroundProps } from "./components/Background";
 
+export { NoiseBackground } from "./components/Background";
+export type { NoiseBackgroundProps, NoiseVariant } from "./components/Background";
+
+export { GeometricBackground } from "./components/Background";
+export type { GeometricBackgroundProps, GeometricVariant } from "./components/Background";
+
+export { FlowFieldBackground } from "./components/Background";
+export type { FlowFieldBackgroundProps, FlowVariant } from "./components/Background";
+
 export { Badge } from "./components/Other";
 export type { BadgeProps } from "./components/Other";
 

@@ -39,3 +39,12 @@ export type { MeteorBackgroundProps } from "./MeteorBackground";
 
 export { BeamsBackground } from "./BeamsBackground";
 export type { BeamsBackgroundProps } from "./BeamsBackground";
+
+export { NoiseBackground } from "./NoiseBackground";
+export type { NoiseBackgroundProps, NoiseVariant } from "./NoiseBackground";
+
+export { GeometricBackground } from "./GeometricBackground";
+export type { GeometricBackgroundProps, GeometricVariant } from "./GeometricBackground";
+
+export { FlowFieldBackground } from "./FlowFieldBackground";
+export type { FlowFieldBackgroundProps, FlowVariant } from "./FlowFieldBackground";

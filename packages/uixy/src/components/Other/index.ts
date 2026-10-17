@@ -33,3 +33,12 @@ export type { TabsProps, TabItem } from "./Tabs";
 
 export { Rating } from "./Rating";
 export type { RatingProps } from "./Rating";
+
+export { Slider } from "./Slider";
+export type { SliderProps } from "./Slider";
+
+export { SegmentedControl } from "./SegmentedControl";
+export type { SegmentedControlProps, SegmentedOption } from "./SegmentedControl";
+
+export { Stepper } from "./Stepper";
+export type { StepperProps, StepperStep } from "./Stepper";

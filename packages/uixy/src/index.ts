@@ -142,6 +142,17 @@ export type { TabsProps, TabItem } from "./components/Other";
 export { Rating } from "./components/Other";
 export type { RatingProps } from "./components/Other";
 
+export { Slider, SegmentedControl, Stepper } from "./components/Other";
+export type { SliderProps, SegmentedControlProps, SegmentedOption, StepperProps, StepperStep } from "./components/Other";
+
+export {
+  SpotlightCard, TiltCard, FlipCard, BorderBeam, MagneticButton, RippleButton, SwipeCards, Lens, AnimatedList, Loader,
+} from "./components/Effects";
+export type {
+  SpotlightCardProps, TiltCardProps, FlipCardProps, BorderBeamProps, MagneticButtonProps, RippleButtonProps,
+  SwipeCardsProps, SwipeCardItem, SwipeDirection, LensProps, AnimatedListProps, LoaderProps, LoaderVariant,
+} from "./components/Effects";
+
 export { Dock, Dialog, CommandPalette, ToastProvider, useToast, Confetti, ImageComparison, OrbitingCircles, Calendar, Combobox, Timeline } from "./components/Advanced";
 export type {
   DockProps, DockItem, DialogProps, CommandPaletteProps, CommandItem,

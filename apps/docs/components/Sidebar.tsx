@@ -76,6 +76,21 @@ const categories: NavCategory[] = [
     ],
   },
   {
+    name: "Effects",
+    items: [
+      { name: "Spotlight Card", href: "/docs/components/spotlight-card" },
+      { name: "Tilt Card", href: "/docs/components/tilt-card" },
+      { name: "Flip Card", href: "/docs/components/flip-card" },
+      { name: "Border Beam", href: "/docs/components/border-beam" },
+      { name: "Magnetic Button", href: "/docs/components/magnetic-button" },
+      { name: "Ripple Button", href: "/docs/components/ripple-button" },
+      { name: "Swipe Cards", href: "/docs/components/swipe-cards" },
+      { name: "Lens", href: "/docs/components/lens" },
+      { name: "Animated List", href: "/docs/components/animated-list" },
+      { name: "Loader", href: "/docs/components/loader" },
+    ],
+  },
+  {
     name: "Advanced",
     items: [
       { name: "Dock", href: "/docs/components/dock" },
@@ -105,6 +120,9 @@ const categories: NavCategory[] = [
       { name: "Accordion", href: "/docs/components/accordion" },
       { name: "Tabs", href: "/docs/components/tabs" },
       { name: "Rating", href: "/docs/components/rating" },
+      { name: "Slider", href: "/docs/components/slider" },
+      { name: "Segmented Control", href: "/docs/components/segmented-control" },
+      { name: "Stepper", href: "/docs/components/stepper" },
     ],
   },
 ];

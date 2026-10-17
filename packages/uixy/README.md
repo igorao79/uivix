@@ -108,6 +108,24 @@ function App() {
 | `Accordion` | single, multiple | Collapsible sections with animated height |
 | `Tabs` | underline, pills | Tabbed panels |
 | `Rating` | - | Interactive star rating (controlled, read-only) |
+| `Slider` | - | Range slider with gradient fill and value bubble |
+| `SegmentedControl` | sm, md, lg | iOS-style switcher with a sliding pill |
+| `Stepper` | horizontal, vertical | Multi-step progress with animated connectors |
+
+### Effects
+
+| Component | Description |
+|-----------|-------------|
+| `SpotlightCard` | Card with a radial spotlight and border glow following the cursor |
+| `TiltCard` | 3D tilt toward the cursor with a glare highlight |
+| `FlipCard` | Two-sided card that flips on hover or click |
+| `BorderBeam` | Beam of light travelling around a container's border |
+| `MagneticButton` | Button pulled toward the cursor |
+| `RippleButton` | Material-style ink ripple from the click point |
+| `SwipeCards` | Tinder-style draggable card stack |
+| `Lens` | Magnifying glass over an image |
+| `AnimatedList` | Items pop in one by one, like a notification feed |
+| `Loader` | Six loading indicators: spinner, dots, bars, pulse, orbit, square |
 
 ### Advanced
 

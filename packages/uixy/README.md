@@ -72,6 +72,8 @@ function App() {
 | `MediaText` | Text with image/video fill |
 | `SparklesText` | Floating sparkle particles around text |
 | `HighlightText` | Animated marker highlight (7 styles: marker, underline, box, strikethrough, gradient, glow, bracket) |
+| `ScrambleText` | Decoder-style scramble that resolves into the final text |
+| `RotatingText` | Cycles through words with a slide-and-blur transition |
 
 ### Backgrounds
 
@@ -103,6 +105,9 @@ function App() {
 | `Skeleton` | - | Loading skeleton placeholder |
 | `Separator` | - | Horizontal/vertical divider |
 | `Marquee` | - | Scrolling content ticker |
+| `Accordion` | single, multiple | Collapsible sections with animated height |
+| `Tabs` | underline, pills | Tabbed panels |
+| `Rating` | - | Interactive star rating (controlled, read-only) |
 
 ### Utilities
 

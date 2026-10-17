@@ -43,6 +43,8 @@ const categories: NavCategory[] = [
       { name: "Media Text", href: "/docs/components/media-text" },
       { name: "Sparkles Text", href: "/docs/components/sparkles-text" },
       { name: "Highlight Text", href: "/docs/components/highlight-text" },
+      { name: "Scramble Text", href: "/docs/components/scramble-text" },
+      { name: "Rotating Text", href: "/docs/components/rotating-text" },
     ],
   },
   {
@@ -85,6 +87,9 @@ const categories: NavCategory[] = [
       { name: "Avatar", href: "/docs/components/avatar" },
       { name: "Marquee", href: "/docs/components/marquee" },
       { name: "Watermark", href: "/docs/components/watermark" },
+      { name: "Accordion", href: "/docs/components/accordion" },
+      { name: "Tabs", href: "/docs/components/tabs" },
+      { name: "Rating", href: "/docs/components/rating" },
     ],
   },
 ];

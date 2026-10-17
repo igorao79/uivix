@@ -28,6 +28,20 @@ const backgrounds = [
   { key: "wave", component: <WaveBackground className="absolute inset-0 w-full h-full" speed={0.8} /> },
 ];
 
+const lastUpdate = (() => {
+  const iso = process.env.NEXT_PUBLIC_LAST_UPDATE;
+  const date = iso ? new Date(iso) : null;
+  if (!date || isNaN(date.getTime())) return null;
+  // Keep the commit's calendar day (first 10 chars of the ISO string) regardless of viewer timezone
+  const [y, m, d] = (iso as string).slice(0, 10).split("-").map(Number);
+  return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    timeZone: "UTC",
+  });
+})();
+
 function GitHubIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -128,8 +142,14 @@ export default function HomePage() {
           </div>
         </div>
 
+        {lastUpdate && (
+          <p className="mt-10 text-xs text-zinc-500">
+            Last updated: <span className="text-zinc-300">{lastUpdate}</span>
+          </p>
+        )}
+
         {/* GitHub link */}
-        <div className="mt-12">
+        <div className="mt-4">
           <a
             href="https://github.com/igorao79"
             target="_blank"

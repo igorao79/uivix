@@ -27,3 +27,9 @@ export type { SparklesTextProps } from "./SparklesText";
 
 export { HighlightText } from "./HighlightText";
 export type { HighlightTextProps } from "./HighlightText";
+
+export { ScrambleText } from "./ScrambleText";
+export type { ScrambleTextProps } from "./ScrambleText";
+
+export { RotatingText } from "./RotatingText";
+export type { RotatingTextProps } from "./RotatingText";

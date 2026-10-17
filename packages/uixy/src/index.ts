@@ -46,6 +46,12 @@ export type { SparklesTextProps } from "./components/Text";
 export { HighlightText } from "./components/Text";
 export type { HighlightTextProps } from "./components/Text";
 
+export { ScrambleText } from "./components/Text";
+export type { ScrambleTextProps } from "./components/Text";
+
+export { RotatingText } from "./components/Text";
+export type { RotatingTextProps } from "./components/Text";
+
 export { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "./components/Card";
 export type { CardProps, CardHeaderProps, CardTitleProps, CardDescriptionProps, CardContentProps, CardFooterProps } from "./components/Card";
 
@@ -126,5 +132,14 @@ export type { MarqueeProps } from "./components/Other";
 
 export { Watermark } from "./components/Other";
 export type { WatermarkProps } from "./components/Other";
+
+export { Accordion } from "./components/Other";
+export type { AccordionProps, AccordionItem } from "./components/Other";
+
+export { Tabs } from "./components/Other";
+export type { TabsProps, TabItem } from "./components/Other";
+
+export { Rating } from "./components/Other";
+export type { RatingProps } from "./components/Other";
 
 export { cn } from "./utils/cn";

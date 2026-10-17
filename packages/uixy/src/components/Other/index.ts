@@ -24,3 +24,12 @@ export type { MarqueeProps } from "./Marquee";
 
 export { Watermark } from "./Watermark";
 export type { WatermarkProps } from "./Watermark";
+
+export { Accordion } from "./Accordion";
+export type { AccordionProps, AccordionItem } from "./Accordion";
+
+export { Tabs } from "./Tabs";
+export type { TabsProps, TabItem } from "./Tabs";
+
+export { Rating } from "./Rating";
+export type { RatingProps } from "./Rating";

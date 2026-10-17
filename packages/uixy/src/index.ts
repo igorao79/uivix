@@ -142,4 +142,12 @@ export type { TabsProps, TabItem } from "./components/Other";
 export { Rating } from "./components/Other";
 export type { RatingProps } from "./components/Other";
 
+export { Dock, Dialog, CommandPalette, ToastProvider, useToast, Confetti, ImageComparison, OrbitingCircles, Calendar, Combobox, Timeline } from "./components/Advanced";
+export type {
+  DockProps, DockItem, DialogProps, CommandPaletteProps, CommandItem,
+  ToastProviderProps, ToastOptions, ToastType, ToastPosition,
+  ConfettiProps, ConfettiHandle, ImageComparisonProps, OrbitingCirclesProps, OrbitRing,
+  CalendarProps, ComboboxProps, ComboboxOption, TimelineProps, TimelineItem,
+} from "./components/Advanced";
+
 export { cn } from "./utils/cn";

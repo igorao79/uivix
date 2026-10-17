@@ -109,6 +109,21 @@ function App() {
 | `Tabs` | underline, pills | Tabbed panels |
 | `Rating` | - | Interactive star rating (controlled, read-only) |
 
+### Advanced
+
+| Component | Description |
+|-----------|-------------|
+| `Dock` | macOS-style dock with cursor magnification |
+| `CommandPalette` | Spotlight-style ⌘K menu with search and keyboard navigation |
+| `Dialog` | Modal with backdrop blur, Escape-to-close and scroll lock |
+| `ToastProvider` / `useToast` | Stacked, auto-dismissing notifications |
+| `Calendar` | Month calendar with min/max and locale support |
+| `Combobox` | Searchable select with keyboard navigation |
+| `Timeline` | Vertical timeline with scroll-in animation |
+| `ImageComparison` | Drag-to-reveal before/after slider |
+| `OrbitingCircles` | Items orbiting a center element on concentric rings |
+| `Confetti` | Canvas confetti burst fired via ref |
+
 ### Utilities
 
 | Export | Description |

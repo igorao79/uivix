@@ -76,6 +76,21 @@ const categories: NavCategory[] = [
     ],
   },
   {
+    name: "Advanced",
+    items: [
+      { name: "Dock", href: "/docs/components/dock" },
+      { name: "Command Palette", href: "/docs/components/command-palette" },
+      { name: "Dialog", href: "/docs/components/dialog" },
+      { name: "Toast", href: "/docs/components/toast" },
+      { name: "Calendar", href: "/docs/components/calendar" },
+      { name: "Combobox", href: "/docs/components/combobox" },
+      { name: "Timeline", href: "/docs/components/timeline" },
+      { name: "Image Comparison", href: "/docs/components/image-comparison" },
+      { name: "Orbiting Circles", href: "/docs/components/orbiting-circles" },
+      { name: "Confetti", href: "/docs/components/confetti" },
+    ],
+  },
+  {
     name: "Other",
     items: [
       { name: "Badge", href: "/docs/components/badge" },
